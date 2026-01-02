@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://ulisesgascondemo.atlassian.net/wiki/rest/api",
+  "baseUrl": "https://hrbrandana.atlassian.net/wiki/rest/api",
   "cachePath": "build",
   "prefix": "This document is automatically generated. Please don't edit it directly!",
   "pages": [
