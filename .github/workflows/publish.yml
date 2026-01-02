@@ -29,6 +29,7 @@ jobs:
         env:
           CI: true
           CONFLUENCE_USERNAME: ${{ secrets.CONFLUENCE_USERNAME }}
+          CONFLUENCE_PASSWORD: ${{ secrets.CONFLUENCE_PASSWORD }}
           CONFLUENCE_TOKEN: ${{ secrets.CONFLUENCE_TOKEN }}
 
       - name: Notify on failure
