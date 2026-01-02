@@ -1,0 +1,22 @@
+{
+  "baseUrl": "https://ulisesgascondemo.atlassian.net/wiki/rest/api",
+  "cachePath": "build",
+  "prefix": "This document is automatically generated. Please don't edit it directly!",
+  "pages": [
+    {
+      "pageId": "491521",
+      "file": "README.md",
+      "title": "Sync Markdown files with Confluence"
+    },
+    {
+      "pageId": "65910",
+      "file": "docs/demo1.md",
+      "title": "Demo Page 1 - Simple Markdown to Confluence"
+    },
+    {
+      "pageId": "13664257",
+      "file": "docs/demo2.md",
+      "title": "Demo Page 2 - Advanced Markdown and Media to Confluence"
+    }
+  ]
+}
