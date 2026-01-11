@@ -15,12 +15,12 @@ jobs:
           cache: "npm"
 
       - name: Install dependencies
-        run: |
-          cd docs
-          npm ci
+        run: npm ci
+        working-directory: ./docs
       
       - name: Lint
         run: npm run lint
+        working-directory: ./docs
 
       - name: Publish to Confluence
         run: npm run publish
