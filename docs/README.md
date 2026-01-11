@@ -2,11 +2,7 @@
 
 ## General
 
-Overall CloudHub follows our Default to Open ISM. However, there are a few
-areas where we need to restrict access to certian groups of users. Below is a
-list of AD groups and their uses. If you believe you need higher levels of access
-in CloudHub please make the [myaccess](https://myaccess.rockfin.com/myaccess/home.jsf)
-request and the CloudHub team can work with you on getting setup.
+Overall CloudHub follows our Default to Open ISM. However, there are a few areas where we need to restrict access to certian groups of users. Below is a list of AD groups and their uses. If you believe you need higher levels of access in CloudHub please make the [myaccess](https://myaccess.rockfin.com/myaccess/home.jsf) request and the CloudHub team can work with you on getting setup.
 
 ## Roles
 
