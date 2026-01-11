@@ -93,11 +93,17 @@ D --> S
 
 ### VSCode
 
-If you are opening this project in VSCode there are launch configurations to run both the CloudHub API and the CloudHub UI. If you are using the `cloudhub.code-workspace` workspace file there is also a composite launch configuration that will run both simultaneously.
+If you are opening this project in VSCode there are launch configurations
+to run both the CloudHub API and the CloudHub UI. If you are using the
+`cloudhub.code-workspace` workspace file there is also a composite launch
+configuration that will run both simultaneously.
 
 ## Local Packages
 
-Use the following command in any subproject to install a local package in any subproject. The important part is the `--install-links` flag. This will copy the package to the `node_modules` instead of using symlinks which seems to have issues with the outdated version of node currently in use.
+Use the following command in any subproject to install a local package in any
+subproject. The important part is the `--install-links` flag. This will copy the
+package to the `node_modules` instead of using symlinks which seems to have
+issues with the outdated version of node currently in use.
 
 ```Bash
 npm install ../<package-name>/cloudhub-<package-name>-local.tgz --install-links
@@ -105,5 +111,6 @@ npm install ../<package-name>/cloudhub-<package-name>-local.tgz --install-links
 
 ## Links
 
-* [Notification Service - 201773 - CloudHub API](https://notification-service.foc.zone/application/210773) - Various email templates including "Monthly Cloud Spend"
+* [Notification Service - 201773 - CloudHub API](https://notification-service.foc.zone/application/210773)
+Various email templates including "Monthly Cloud Spend"
 * [SonarQube - RocketMortgage/cloudhub-ui](https://sonarqube.rockfin.com/dashboard?id=QL.220544)
