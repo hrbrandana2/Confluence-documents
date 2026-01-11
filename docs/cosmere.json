@@ -1,7 +1,7 @@
 {
   "baseUrl": "https://hrbrandana.atlassian.net/wiki/rest/api",
   "cachePath": "build",
-  "prefix": "This document is automatically generated. Please don't edit it directly!",
+  "prefix": "This document is automatically generated. Please don't edit it directly! Contact the Team Paladin!",
   "pages": [
     {
       "pageId": "491521",
