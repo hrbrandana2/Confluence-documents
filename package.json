@@ -4,9 +4,9 @@
   "description": "Monorepo containing multiple independent projects",
   "private": true,
   "scripts": {
-    "publish": "cosmere",
-    "lint": "markdownlint pages/**/*.md",
-    "lint:fix": "markdownlint --fix pages/**/*.md && markdownlint --fix README.md --disable MD013"
+    "publish": "cd docs && npm run publish",
+    "lint": "cd docs && npm run lint",
+    "lint:fix": "cd docs && npm run lint:fix"
   },
   "repository": {
     "type": "git",

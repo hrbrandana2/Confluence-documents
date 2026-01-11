@@ -18,12 +18,12 @@ jobs:
         run: |
           cd docs
           npm ci
-          npm run lint
+      
+      - name: Lint
+        run: npm run lint
 
       - name: Publish to Confluence
-        run: |
-          cd docs
-          npm run publish
+        run: npm run publish
         env:
           CI: true
           CONFLUENCE_USERNAME: ${{ secrets.CONFLUENCE_USERNAME }}
