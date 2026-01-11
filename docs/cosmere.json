@@ -1,7 +1,7 @@
 {
   "baseUrl": "https://hrbrandana.atlassian.net/wiki/rest/api",
   "cachePath": "build",
-  "prefix": "This document is automatically generated. Please don't edit it directly!",
+  "prefix": "This document is automatically generated. Please don't edit it directly! Contact the Team Paladin!",
   "pages": [
     {
       "pageId": "491521",
@@ -10,12 +10,12 @@
     },
     {
       "pageId": "65910",
-      "file": "docs/demo1.md",
+      "file": "demo1.md",
       "title": "Demo Page 1 - Simple Markdown to Confluence"
     },
     {
       "pageId": "13664257",
-      "file": "docs/demo2.md",
+      "file": "demo2.md",
       "title": "Demo Page 2 - Advanced Markdown and Media to Confluence"
     }
   ]

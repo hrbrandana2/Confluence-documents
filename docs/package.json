@@ -1,0 +1,37 @@
+{
+  "name": "confluence-documents",
+  "version": "1.0.0",
+  "description": "Proof of concept project aimed at enabling the automatic synchronization of Markdown files with Confluence",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "publish": "cosmere",
+    "lint": "markdownlint *.md --disable MD013 MD060",
+    "lint:fix": "markdownlint --fix *.md --disable MD013 MD060 && markdownlint --fix ../README.md --disable MD013"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/confluence-documents.git"
+  },
+  "keywords": [
+    "confluence",
+    "markdown",
+    "documentation",
+    "sync",
+    "atlassian"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cosmere": "^0.17.2",
+    "markdownlint": "^0.40.0",
+    "markdownlint-cli": "^0.47.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-plugin-json": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
