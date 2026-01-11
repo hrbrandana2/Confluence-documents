@@ -1,0 +1,20 @@
+{
+  "name": "confluence-documents-monorepo",
+  "version": "1.0.0",
+  "description": "Monorepo containing multiple independent projects",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No tests configured at root level\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/confluence-documents.git"
+  },
+  "keywords": [
+    "monorepo",
+    "confluence",
+    "documentation"
+  ],
+  "author": "",
+  "license": "ISC"
+}
