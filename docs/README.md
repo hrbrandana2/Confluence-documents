@@ -10,11 +10,11 @@ request and the CloudHub team can work with you on getting setup.
 
 ## Roles
 
-| Name                                                     | Description                                                                     |
-| -------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| Name                                                     | Description                                                                                 |
+| -------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | cloudhub_configuration                                   | Restricted role for System configuration, provides full access to all features, accounts |
-| cloudhub_viewer                                          | Open role, this is for anyone outside of IT that needs access to the system     |
-| cloudhub_auditor                                         | Future Role - will be for compliance auditors to have access to multiple FOC's  |
-| cloudhub_accounts_maintainer                             | Role to allow non-configuration users to maintain information on Cloud Accounts              |
-| cloudhub_releasetrain_associateaccounttoreleasetrain     | Role to allow a user to associate a Cloud Account to a Release Train            |
-| cloudhub_releasetrain_unassociateaccountfromreleasetrain | Role to allow a user to unassociate a Cloud Account to a Release Train          |
+| cloudhub_viewer                                          | Open role, this is for anyone outside of IT that needs access to the system              |
+| cloudhub_auditor                                         | Future Role - will be for compliance auditors to have access to multiple FOC's           |
+| cloudhub_accounts_maintainer                             | Role to allow non-configuration users to maintain information on Cloud Accounts           |
+| cloudhub_releasetrain_associateaccounttoreleasetrain     | Role to allow a user to associate a Cloud Account to a Release Train                     |
+| cloudhub_releasetrain_unassociateaccountfromreleasetrain | Role to allow a user to unassociate a Cloud Account to a Release Train                   |
