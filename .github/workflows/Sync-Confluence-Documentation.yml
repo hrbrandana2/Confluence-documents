@@ -20,9 +20,7 @@ jobs:
           npm ci
 
       - name: Lint
-        run: |
-          cd docs
-          npm run lint
+        run: npm run lint
 
       - name: Publish to Confluence
         run: |
